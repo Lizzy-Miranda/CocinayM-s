@@ -1,0 +1,162 @@
+
+#principal{
+    position: relative;
+    height: 100vh; 
+    overflow: hidden; 
+    
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center; 
+    padding: 20px; 
+}
+
+
+
+#principal #contenido{
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+}
+
+button{
+    width: 200px;
+    border: 1px solid blue;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    margin-right: 50%;
+}
+
+button:hover {
+    background-color: blue; 
+    color: white; 
+  }
+
+  #contenido p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  .linea .p{
+ font-family: 'Courier New', Courier, monospace;
+  }
+
+  .card{
+    border-radius: 0;
+    border: none;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contenido p:hover{
+    color: orange;
+   
+}
+
+.card img{
+    border-radius: 0;
+
+}
+
+.card-1:hover .card-text {
+    color: orange;
+}
+
+.card-2:hover .card-text {
+    color: orange;
+}
+
+.card-3:hover .card-text {
+    color: orange; 
+}
+
+
+.controls {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: gray;
+    
+}
+
+
+::placeholder {
+    color: gray;
+}
+.boton {
+    width: 30%; 
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+    line-height: 20px;
+    font-size: 20px;
+  
+}
+
+
+
+
+
+
+
+.form {
+  width: 100%;
+    border: none;
+    background-color:white; 
+    max-width: 800px; 
+    margin: 0 auto;
+    margin-bottom: 400px; 
+
+}
+.controls {
+    width: 100%; 
+   padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black; 
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    margin-bottom: 10px;
+
+    
+}
+h2{
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+textarea {
+    width: 100%; 
+    height: 150px;
+    padding: 10px; 
+    border-bottom: 1px solid black; 
+    border-top: none;
+    border-left:none;
+    border-right: none;
+     
+    margin-bottom: 15px; 
+    resize: vertical; 
+}
+.boton:hover {
+    background-color: black;
+    color: white;
+}
